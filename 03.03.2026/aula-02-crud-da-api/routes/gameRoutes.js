@@ -16,4 +16,7 @@ gameRoutes.delete("/games/:id", gameController.deleteGame)
 // Endpoint para alterar um game
 gameRoutes.put("/games/:id", gameController.updateGame)
 
+// Endpoint para listar um jogo único
+gameRoutes.get("/games/:id", gameController.getOneGame)
+
 export default gameRoutes;
