@@ -42,5 +42,7 @@ Cliente ----------> /Auth -----------> {API} -------> BD
 
 *Armazenando no navegador*
 
+*// npm install jsonwebtoken*
+
 
 
